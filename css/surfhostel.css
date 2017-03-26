@@ -1,0 +1,802 @@
+.logonav {
+  display: block;
+  max-width: 60%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navlink {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: Lato, sans-serif;
+  font-weight: 900;
+}
+.navlink:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  font-family: Lato, sans-serif;
+  color: #094880;
+  font-weight: 900;
+}
+.navlink:active {
+  font-size: 15px;
+}
+.flag {
+  display: block;
+  margin-top: 38px;
+  margin-left: 17px;
+  padding-top: 0px;
+  float: left;
+  clear: none;
+}
+.flagmenu {
+  float: none;
+}
+.navmenu {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  margin-top: -21px;
+  margin-right: 14px;
+  float: none;
+}
+.navcontainer {
+  display: inline;
+  margin-right: 50px;
+  margin-left: 90px;
+}
+.brand {
+  display: inline-block;
+  margin-right: 55px;
+  margin-bottom: 0px;
+  margin-left: 31px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.navbar {
+  position: relative;
+  display: block;
+  width: 1164px;
+  height: 100px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.flaglink {
+  width: auto;
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+}
+.imagelogo {
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+.navbar1 {
+  background-color: white;
+}
+.hero {
+  height: 700px;
+}
+.questions.ajusteslide2 {
+  padding-left: 630px;
+}
+.questions.ajusteslide12 {
+  padding-left: 450px;
+}
+.slide3 {
+  background-image: url('../images/surfing.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.slide2 {
+  background-image: url('../images/torre.jpg');
+  background-position: 50% 9%;
+  background-size: cover;
+}
+.slide1 {
+  background-image: url('../images/DSC_0380_0.JPG');
+  background-position: 50% 81%;
+  background-size: cover;
+}
+.contslide1 {
+  position: absolute;
+  left: -7px;
+  top: 0px;
+  right: 196px;
+  bottom: 0px;
+}
+.contslide11 {
+  padding-left: 800px;
+}
+.areyou {
+  margin-top: 174px;
+  font-family: Lato, sans-serif;
+  font-size: 43px;
+  text-shadow: white 1px 1px 6px;
+}
+.areyou.ajusteslide1 {
+  margin-top: 267px;
+}
+.for {
+  font-family: Lato, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow: white 0px 1px 0px;
+}
+.information {
+  padding-right: 500px;
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  text-shadow: black 0px 2px 5px;
+}
+.information.ajusteslide21 {
+  padding-right: 0px;
+}
+.information.ajusteslide13 {
+  padding-right: 48px;
+}
+.information.textofacilidades1 {
+  margin-left: 72px;
+  padding-top: 37px;
+  padding-right: 0px;
+  padding-left: 2px;
+  float: none;
+  color: black;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  list-style-type: disc;
+  text-shadow: none;
+}
+.information.textofacilidades1.ajustal1 {
+  font-size: 13px;
+  line-height: 13px;
+}
+.booknow {
+  margin-top: 19px;
+  margin-left: 343px;
+  border: 1px solid white;
+  background-color: #0d3f6b;
+  box-shadow: black 4px 3px 3px 0px;
+  color: white;
+}
+.booknow:hover {
+  opacity: 0.67;
+  -webkit-transform: scale(1.16);
+  -ms-transform: scale(1.16);
+  transform: scale(1.16);
+}
+.booknow.ajusteslide22 {
+  margin-left: 206px;
+}
+.booknow.ajusteprice {
+  margin-top: 1px;
+  margin-left: 216px;
+  padding-bottom: 4px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.facilities {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  background-color: rgba(205, 206, 215, 0.86);
+  font-family: Lato, sans-serif;
+  color: #081b88;
+  font-size: 43px;
+  line-height: 46px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  text-indent: 3px;
+}
+.facilities.colour {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: transparent;
+}
+.facilities.colour.ajustecc {
+  margin-top: 0px;
+}
+.facilities.colour.white {
+  color: white;
+  text-decoration: underline;
+}
+.facilities.colour.white.special {
+  font-size: 34px;
+  text-decoration: none;
+}
+.weare {
+  border-style: none;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  text-indent: 0px;
+  text-transform: uppercase;
+}
+.weare.ajala {
+  font-size: 13px;
+}
+.price {
+  margin-bottom: 0px;
+  color: #313235;
+}
+.price2 {
+  margin-top: 1px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: 400;
+}
+.separador {
+  height: 15px;
+}
+.textotabel {
+  margin-top: 4px;
+  margin-bottom: 16px;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+.textotabel.ajustetexto {
+  margin-top: 3px;
+  float: left;
+  font-size: 13px;
+  font-weight: 700;
+}
+.textotabel.ajustetexto.space {
+  margin-top: 3px;
+  margin-left: 4px;
+  float: right;
+}
+.textotabel.ajuste {
+  margin-top: 11px;
+  margin-bottom: 0px;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 700;
+}
+.textotabel.faciltexthead {
+  margin-bottom: 5px;
+  padding-left: 19px;
+  float: left;
+  color: black;
+  text-decoration: underline;
+}
+.textotabel.faciltexthead.ajusted {
+  padding-right: 80px;
+  padding-left: 29px;
+  text-align: center;
+}
+.textotabel.faciltexthead.ajusal2 {
+  font-size: 13px;
+  line-height: 23px;
+}
+.textotabel.ajustea {
+  margin-bottom: 56px;
+}
+.contorno {
+  border: 1px solid black;
+}
+.contorno.ajustealtura {
+  margin-bottom: 0px;
+  padding-bottom: 12px;
+}
+.colunaprice {
+  margin-top: 0px;
+}
+.limpa {
+  margin-bottom: 0px;
+  border: 1px solid black;
+  background-color: white;
+}
+.colunafacilidades.segundacoluna {
+  margin-top: 18px;
+}
+.imagefacilities {
+  max-width: 20%;
+  float: left;
+}
+.textofacilidades {
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+}
+.galeria {
+  margin-bottom: 0px;
+  background-color: #081b88;
+}
+.galeria.master {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+.gallery {
+  margin: 3px 2px 7px;
+  border: 2px solid white;
+}
+.oorrecao {
+  max-height: 94px;
+  max-width: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.textgallery {
+  margin-left: 29px;
+  color: white;
+  text-align: center;
+}
+.sliderreviws {
+  display: block;
+  margin-right: auto;
+  margin-left: 41px;
+  background-color: transparent;
+}
+.icone {
+  margin-right: 15.5px;
+  margin-left: 31.5px;
+  font-size: 13px;
+}
+.icone.left {
+  margin-left: 10.5px;
+}
+.icone.right {
+  margin-left: 52.5px;
+}
+.slidenav {
+  font-size: 9px;
+}
+.imagerev {
+  display: block;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 11px 16px;
+}
+.revisao {
+  margin-right: 13px;
+  margin-left: 33px;
+  padding-top: 0px;
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+}
+.name {
+  color: white;
+  text-align: right;
+}
+.mapembebed {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tabssurf {
+  display: block;
+  margin-right: auto;
+  margin-left: 136px;
+}
+.textlinksurf {
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.tablinksurf {
+  background-color: #081b88;
+}
+.windtext {
+  max-width: 100%;
+  margin-top: 16px;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+}
+.imagecarca {
+  display: block;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tourism {
+  background-color: #081b88;
+}
+.tourismrow {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.tablinktourism {
+  border-radius: 1px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.tabtourism {
+  margin-left: 169px;
+}
+.tourism-slide {
+  height: 383px;
+}
+.slidebartourism {
+  font-size: 11px;
+}
+.sintra1 {
+  background-image: url('../images/sintra01.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+}
+.sintra2 {
+  background-image: url('../images/sintra03.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.sintra3 {
+  background-image: url('../images/sintra06.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+}
+.textotourismint {
+  margin-top: 80px;
+  padding-top: 0px;
+  padding-right: 78px;
+  padding-left: 55px;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+}
+.textofototurismo {
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 15px;
+  text-shadow: black 2px 1px 0px;
+}
+.textofototurismo.mouros {
+  margin-top: 40px;
+  margin-right: 270px;
+  margin-left: 20px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: justify;
+}
+.textofototurismo.pena {
+  margin-top: 280px;
+  margin-left: 20px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-shadow: black 2px 1px 0px;
+}
+.textofototurismo.pena.cas1 {
+  margin-top: 20px;
+}
+.textofototurismo.regaleira {
+  margin-top: 20px;
+  margin-right: 140px;
+  margin-left: 30px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: justify;
+}
+.cascais1 {
+  background-image: url('../images/cascais06.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.cascais2 {
+  background-image: url('../images/cascais01.jpg');
+  background-position: 0px 0px;
+  background-size: 1000px;
+}
+.cascais3 {
+  background-image: url('../images/cascais07.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.cascais4 {
+  background-image: url('../images/cascais08.jpg');
+  background-position: 0px 0px;
+  background-size: 1000px;
+}
+.cascais5 {
+  background-image: url('../images/cascais05.jpg');
+  background-position: 0px 0px;
+  background-size: 1000px;
+}
+.lisboa2 {
+  background-image: url('../images/lisbon04.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.lisboa3 {
+  background-image: url('../images/lisbon01.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.lisboa4 {
+  background-image: url('../images/lisbon05.jpg');
+  background-position: 0px 0px;
+  background-size: 1000px;
+}
+.belem1 {
+  background-image: url('../images/torre.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.belem2 {
+  background-image: url('../images/belem01.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.belem3 {
+  background-image: url('../images/torre.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.belem4 {
+  background-image: url('../images/belem02.jpg');
+  background-position: 50% 61%;
+  background-size: cover;
+}
+.belem5 {
+  background-image: url('../images/lisbon03.jpg');
+  background-position: 0px 1px;
+  background-size: cover;
+}
+.slidernght {
+  height: 500px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.nigth {
+  margin-top: 13px;
+}
+.nighttexthead {
+  margin-top: 42px;
+  text-align: center;
+}
+.textnight {
+  margin-right: 45px;
+  font-family: Lato, sans-serif;
+  text-align: justify;
+  text-transform: none;
+}
+.contact {
+  background-color: #081b88;
+}
+.embedface {
+  display: block;
+  margin-top: 11px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.embedface.tripajuste {
+  margin-top: 46px;
+  margin-right: 1px;
+  margin-left: 45px;
+}
+.logofoot {
+  margin-top: 10px;
+  margin-left: 38px;
+}
+.mapag {
+  margin-top: 11px;
+  margin-left: 7px;
+}
+.nfor {
+  margin-top: 17px;
+  margin-left: 39px;
+  padding-left: 0px;
+  color: white;
+}
+.nfor.tel {
+  margin-top: 26px;
+  margin-left: 0px;
+}
+.nfor.mail {
+  margin-left: 0px;
+}
+.inforimages {
+  margin-right: 1px;
+  margin-left: 65px;
+  float: left;
+}
+.linktel {
+  margin-left: 27px;
+}
+.linkmail {
+  margin-left: 7px;
+}
+.separador1 {
+  height: 3px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.liguedig {
+  margin-left: 50px;
+  font-family: Lato, sans-serif;
+}
+.liguedi {
+  color: black;
+  text-decoration: none;
+}
+.autoria {
+  margin-right: 50px;
+  float: right;
+  font-family: Lato, sans-serif;
+}
+.tabss {
+  margin-left: 5px;
+}
+@media (max-width: 991px) {
+  .questions.ajusteslide2 {
+    padding-top: 200px;
+    padding-left: 60px;
+  }
+  .questions.ajusteslide12 {
+    padding-left: 100px;
+  }
+  .areyou {
+    margin-left: 60px;
+    color: white;
+    text-shadow: black 1px 1px 6px;
+  }
+  .for {
+    margin-left: 60px;
+    color: white;
+    text-shadow: black 0px 1px 0px;
+  }
+  .information {
+    margin-left: 60px;
+    padding-right: 170px;
+  }
+  .information.textofacilidades1 {
+    margin-left: 48px;
+    font-size: 14px;
+  }
+  .textotabel.faciltexthead {
+    font-size: 14px;
+  }
+  .textotabel.faciltexthead.ajusted {
+    padding-left: 0px;
+  }
+  .preco {
+    font-size: 20px;
+  }
+  .imagefacilities {
+    max-width: 15%;
+  }
+  .imagerev {
+    max-width: 60%;
+  }
+  .revisao {
+    font-size: 9px;
+  }
+  .name {
+    margin-top: -7px;
+    font-size: 12px;
+  }
+  .mapembebed {
+    margin-left: 84px;
+  }
+  .textnight {
+    font-size: 9px;
+    line-height: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .revisao {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .mapembebed {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+  .textnight {
+    margin-left: 46px;
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .logofoot {
+    margin-left: 124px;
+  }
+  .mapag {
+    margin-left: 87px;
+  }
+}
+@media (max-width: 479px) {
+  .flaglink {
+    margin-top: -26px;
+  }
+  .areyou {
+    font-size: 20px;
+  }
+  .for {
+    font-size: 25px;
+  }
+  .booknow {
+    margin-left: 70px;
+  }
+  .booknow.ajusteslide22 {
+    margin-left: 140px;
+  }
+  .revisao {
+    font-size: 10px;
+  }
+  .name {
+    margin-top: -22px;
+    font-size: 10px;
+  }
+  .instagram {
+    position: absolute;
+  }
+  .sintra3 {
+    min-width: 1px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .textotourismint {
+    margin-top: 10px;
+    padding-right: 55px;
+    padding-left: 45px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .textofototurismo.mouros {
+    margin-right: 5px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .textofototurismo.pena {
+    margin-top: 220px;
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .textofototurismo.regaleira {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  .slidernght {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  .textnight {
+    font-size: 11px;
+    line-height: 11px;
+  }
+  .logofoot {
+    margin-left: 5px;
+  }
+  .mapag {
+    position: relative;
+    margin-left: 0px;
+  }
+  .nfor {
+    margin-top: 54px;
+    margin-left: 40px;
+  }
+  .nfor.tel {
+    margin-top: 20px;
+    margin-left: 11px;
+  }
+  .nfor.mail {
+    margin-top: 14px;
+    margin-left: 25px;
+    font-size: 14px;
+  }
+  .inforimages {
+    max-width: 100%;
+    margin-left: 113px;
+  }
+  .liguedig {
+    margin-left: 78px;
+  }
+  .autoria {
+    margin-left: 34px;
+  }
+  .iconne {
+    font-size: 13px;
+  }
+}
